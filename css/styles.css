@@ -8,20 +8,17 @@ Deep Blue: #24305E*/
 
 /* Default sections */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
     background-color: #A8D0E6;
 }
 
 header {
     background-color: #F8E9A1;
     text-align: center;
+    border-radius: 25px 25px 5px 5px; 
 }
 
-button {
-    background-color: #F76C6C;
-    display: block;
-    padding: 1rem;
-}
+
 
 footer {
     background-color: #24305E;
@@ -31,6 +28,15 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 3em;
+    border-radius: 5px 5px 25px 25px;
+}
+
+/* Interactive objects */
+button {
+    background-color: #F76C6C;
+    display: block;
+    padding: 1rem;
+    border-radius: 10px 25px;
 }
 
 /* Text modding */
