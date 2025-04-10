@@ -15,10 +15,9 @@ body {
 header {
     background-color: #F8E9A1;
     text-align: center;
+    padding: 1em;
     border-radius: 25px 25px 5px 5px; 
 }
-
-
 
 footer {
     background-color: #24305E;
@@ -37,6 +36,7 @@ button {
     display: block;
     padding: 1rem;
     border-radius: 10px 25px;
+    color: antiquewhite;
 }
 
 /* Text modding */
@@ -53,13 +53,33 @@ p {
     position: relative;
     text-align: center;
     justify-content: center;
+    border-radius: 15px;
 }
 
-.centered {
+.imageText {
     margin: 0;
     position: absolute;
     display: grid;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: antiquewhite;
+    background-color: #374785;
+    border-radius: 15px;
   }
+
+.bold {
+    font-weight: bold;
+}
+
+.backgroundImage {
+    background-image: url('../images/Children1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
