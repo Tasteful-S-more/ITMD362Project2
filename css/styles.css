@@ -15,6 +15,11 @@ header {
     text-align: center;
 }
 
+button {
+    background-color: #F76C6C;
+    display: block;
+}
+
 footer {
     background-color: #24305E;
     color:antiquewhite
