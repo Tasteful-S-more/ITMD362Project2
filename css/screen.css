@@ -1,0 +1,273 @@
+input {
+  font-family: "Verdana", "Calibri", sans-serif; 
+  font-size: 100%; 
+  line-height: 1.15; 
+  margin: 0; 
+  min-width: 90%;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.5em;
+  border: 1px solid #99b5f9;
+  margin: 0.5em 0;
+  box-sizing: border-box;
+}
+
+button {
+  font-family: "Verdana", "Calibri", sans-serif; 
+  font-size: 100%; 
+  line-height: 1.15; 
+  margin: 10px; 
+  display: inline;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { 
+  overflow: auto;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { 
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"], 
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; 
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; 
+  color: inherit; 
+  display: table; 
+  min-width: 90%;
+  max-width: 100%; 
+  padding: 0; 
+  white-space: normal; 
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  display: inline-block; 
+  vertical-align: baseline; 
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; 
+  padding: 0; 
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; 
+  outline-offset: -2px; 
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; 
+  font: inherit; 
+}
+
+/* End Form portion of Normalize CSS */
+
+/* Responsive Media */
+img, audio, video {
+  max-width: 100%;
+  min-width: 90%;
+}
+
+/* ===== BASE STYLES ===== */
+
+/*
+  Major Sixth Modular Scale:
+  http://www.modularscale.com/?22&px&1.667&web&text
+*/
+
+html {
+  font-size: 1.375em; 
+  line-height: 1.182em; 
+  padding: 1.182em; 
+  text-rendering: optimizeLegibility;
+}
+
+label {
+  display: block;
+}
+
+/* ===== LAYOUT STYLES ====== */
+h1 {
+  font-size: 1.8em;
+  font-family: "Verdana", "Calibri", sans-serif;  
+  text-align: center;
+  color: #99b5f9;
+  padding: 0.5em;
+  letter-spacing: 1px;
+  margin-bottom: 1.5em;
+  border: dotted 2px #c2c8ff;
+}
+
+body {
+  background-color: #0c0643;
+  font-family: "Verdana", "Calibri", sans-serif;  
+  color: #456ffa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #16066c;
+  padding: 1.5rem;
+  border-radius: 2em;
+  box-shadow: 0 8px 12px rgba(92, 127, 183, 0.4);
+  width: 100%;
+  max-width: 400px;
+}
+
+fieldset {
+  border: 4px dashed #ffffff; 
+  padding: 1em;
+  margin: 0;
+  width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: groove 6px #3570fb;
+  border-radius: 1em;
+  margin: 1em auto;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  form {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    font-size: 1.25rem;
+  }
+
+  form {
+    max-width: 600px;
+  }
+
+  img {
+    max-width: 80%;
+  }
+}
+
+/* ===== LAYOUT STYLES ====== */
+
+
+/* ===== STATE STYLES ======= */
