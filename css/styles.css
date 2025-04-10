@@ -1,3 +1,15 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/*Color palette:
+Yellow: #F8E9A1
+Red: #F76C6C
+Light Blue: #A8D0E6
+Med. Blue: #374785
+Deep Blue: #24305E*/
+
+header {
+    background-color: #A8D0E6;
+    text-align: center;
+}
