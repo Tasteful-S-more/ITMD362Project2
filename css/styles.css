@@ -5,6 +5,8 @@ Light Blue: #A8D0E6
 Med. Blue: #374785
 Deep Blue: #24305E*/
 
+
+/* Default sections */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #A8D0E6;
@@ -18,8 +20,7 @@ header {
 button {
     background-color: #F76C6C;
     display: block;
-    padding: 1rem
-    
+    padding: 1rem;
 }
 
 footer {
@@ -29,8 +30,19 @@ footer {
     padding: 2em;
     align-items: center;
     justify-content: center;
+    gap: 3em;
 }
 
+/* Text modding */
+h1 {
+    padding: 10px;
+}
+
+p {
+    padding: 1em;
+}
+
+/* Classes */ 
 .container {
     position: relative;
     text-align: center;
