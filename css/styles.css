@@ -18,9 +18,30 @@ header {
 button {
     background-color: #F76C6C;
     display: block;
+    padding: 1rem
+    
 }
 
 footer {
     background-color: #24305E;
-    color:antiquewhite
+    color:antiquewhite;
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.centered {
+    margin: 0;
+    position: absolute;
+    display: grid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
