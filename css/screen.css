@@ -1,5 +1,4 @@
 input {
-  font-family: "Verdana", "Calibri", sans-serif; 
   font-size: 100%; 
   line-height: 1.15; 
   margin: 0; 
@@ -14,7 +13,6 @@ input {
 }
 
 button {
-  font-family: "Verdana", "Calibri", sans-serif; 
   font-size: 100%; 
   line-height: 1.15; 
   margin: 10px; 
@@ -192,34 +190,11 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-h1 {
-  font-size: 1.8em;
-  font-family: "Verdana", "Calibri", sans-serif;  
-  text-align: center;
-  color: #99b5f9;
-  padding: 0.5em;
-  letter-spacing: 1px;
-  margin-bottom: 1.5em;
-  border: dotted 2px #c2c8ff;
-}
-
-body {
-  background-color: #0c0643;
-  font-family: "Verdana", "Calibri", sans-serif;  
-  color: #456ffa;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 1rem;
-  margin: 0;
-}
-
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #16066c;
+  background-color: #24305E;
   padding: 1.5rem;
   border-radius: 2em;
   box-shadow: 0 8px 12px rgba(92, 127, 183, 0.4);
@@ -238,18 +213,174 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  border: groove 6px #3570fb;
   border-radius: 1em;
   margin: 1em auto;
 }
 
-@media (min-width: 600px) {
-  h1 {
-    font-size: 2em;
-  }
+/*Color palette:
+Yellow: #F8E9A1
+Red: #F76C6C
+Light Blue: #A8D0E6
+Med. Blue: #374785
+Deep Blue: #24305E*/
 
+
+/* Default sections */
+body {
+  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  background-color: #A8D0E6;
+  line-height: 1.6;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #F8E9A1;
+  text-align: center;
+  padding: 1em;
+  border-radius: 25px 25px 5px 5px; 
+}
+
+footer {
+  background-color: #24305E;
+  color:antiquewhite;
+  display: flex;
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  border-radius: 5px 5px 25px 25px;
+}
+
+/* Interactive objects */
+button {
+  background-color: #F76C6C;
+  display: block;
+  padding: 1rem;
+  border-radius: 10px 25px;
+  color: antiquewhite;
+}
+
+/* Text modding */
+h1 {
+  padding: 10px;
+  text-align: center;
+  padding: 0.5em;
+  letter-spacing: 1px;
+}
+
+p {
+  padding: 1em;
+}
+
+/* Classes */ 
+.container {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.imageText {
+  margin: 0;
+  position: absolute;
+  display: grid;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: antiquewhite;
+  background-color: #374785;
+  border-radius: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.backgroundImage {
+  background-image: url('../images/smilingChildren.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+/* Home page slideshow */
+.slideshowContainer {
+  position: relative;
+  height: 500px;
+  margin: 2em auto;
+  overflow: hidden;
+  background: #F8E9A1;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: none;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.2em;
+  color: #313131;
+}
+
+.slide.active {
+  display: block !important;
+}
+
+.slide img {
+  max-height: 60%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.slide .text {
+  margin-top: 1em;
+  font-size: 1.3em; 
+  color: #313131;
+}
+
+.slideshowContainer button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 10px;
+}
+
+/* ===== LAYOUT STYLES ====== */
+@media (min-width: 600px) {
   form {
     padding: 2rem;
+  }
+
+  img {
+    max-width: 80%;
   }
 }
 
@@ -261,13 +392,6 @@ img {
   form {
     max-width: 600px;
   }
-
-  img {
-    max-width: 80%;
-  }
 }
-
-/* ===== LAYOUT STYLES ====== */
-
 
 /* ===== STATE STYLES ======= */
