@@ -193,13 +193,14 @@ label {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   background-color: #24305E;
   padding: 1.5rem;
   border-radius: 2em;
   box-shadow: 0 8px 12px rgba(92, 127, 183, 0.4);
   width: 100%;
   max-width: 400px;
+  margin: auto;
 }
 
 fieldset {
@@ -261,6 +262,12 @@ button {
   color: antiquewhite;
 }
 
+a {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
 /* Text modding */
 h1 {
   padding: 10px;
@@ -278,6 +285,7 @@ p {
   position: relative;
   text-align: center;
   justify-content: center;
+  align-items: center;
   border-radius: 15px;
 }
 
@@ -291,6 +299,7 @@ p {
   color: antiquewhite;
   background-color: #374785;
   border-radius: 15px;
+  align-items: center;
 }
 
 .bold {
@@ -390,7 +399,7 @@ p {
   }
 
   form {
-    max-width: 600px;
+    max-width: 80%;
   }
 }
 
