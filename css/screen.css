@@ -229,6 +229,7 @@ Deep Blue: #24305E*/
 body {
   font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
   background-color: #A8D0E6;
+  line-height: 1.6;
   justify-content: center;
   align-items: center;
 }
@@ -263,11 +264,9 @@ button {
 /* Text modding */
 h1 {
   padding: 10px;
-  font-size: 1.8em;
   text-align: center;
   padding: 0.5em;
   letter-spacing: 1px;
-  margin-bottom: 1.5em;
 }
 
 p {
@@ -312,10 +311,6 @@ p {
 
 /* ===== LAYOUT STYLES ====== */
 @media (min-width: 600px) {
-  h1 {
-    font-size: 2em;
-  }
-
   form {
     padding: 2rem;
   }
