@@ -4,7 +4,7 @@
 <title>Penny Juice</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/screen.css">
-<script src="js/scripts.js"></script>
+<script src="js/scripts.js" defer></script>
 <body>
     <header>
         <h1>Penny Juice of America</h1>
@@ -18,17 +18,24 @@
             </div>
         </div>
     </div>
-    <!--Future slideshow-->
-    <h3>RAINBOWS OF EXCITING FLAVORS!</h3> <!--Make text a gradient color between the yellow and red in later iteration-->
-    <div>
-        <img src="images/freshFruits.jpg" alt="Fruit bowls filled with various cut-up fruit.">
-        <div>15 flavors available, including 7 color-free options. Orders ship in a case of 6 bottles, &frac12; gallon each.</div>
-        <img src="images/sittingChildren.jpg" alt="Children outdoors sitting by a river.">
-        <div>Our products are designed especially for youth childcare needs. Our variety of flavors is something all kids can enjoy!</div>
-        <img src="images/juice.jpg" alt="Juice.">
-        <div>All products comply with USDA and FDA guidelines. Order your quality juice concentrates now!</div>
+    <!-- Future slideshow -->
+    <h3>RAINBOWS OF EXCITING FLAVORS!</h3>
+    <div class="slideshowContainer">
+        <div class="slide active">
+            <img src="images/freshFruits.jpg" alt="Fruit bowls filled with various cut-up fruit.">
+            <div class="text">15 flavors available, including 7 color-free options. Orders ship in a case of 6 bottles, &frac12; gallon each.</div>
+        </div>
+        <div class="slide">
+            <img src="images/sittingChildren.jpg" alt="Children outdoors sitting by a river.">
+            <div class="text">Our products are designed especially for youth childcare needs. Our variety of flavors is something all kids can enjoy!</div>
+        </div>
+        <div class="slide">
+            <img src="images/juice.jpg" alt="Juice.">
+            <div class="text">All products comply with USDA and FDA guidelines. Order your quality juice concentrates now!</div>
+        </div>
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
     </div>
-    <div>
         <!--Future link to "Learn More" page-->
         <!--<a href=""></a>-->
     </div>

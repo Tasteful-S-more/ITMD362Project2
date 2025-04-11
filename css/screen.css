@@ -309,6 +309,70 @@ p {
   border-radius: 15px;
 }
 
+/* Home page slideshow */
+.slideshowContainer {
+  position: relative;
+  height: 500px;
+  margin: 2em auto;
+  overflow: hidden;
+  background: #F8E9A1;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: none;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.2em;
+  color: #313131;
+}
+
+.slide.active {
+  display: block !important;
+}
+
+.slide img {
+  max-height: 60%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.slide .text {
+  margin-top: 1em;
+  font-size: 1.3em; 
+  color: #313131;
+}
+
+.slideshowContainer button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 10px;
+}
+
 /* ===== LAYOUT STYLES ====== */
 @media (min-width: 600px) {
   form {
