@@ -317,6 +317,22 @@ p {
   border-radius: 15px;
 }
 
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  display: block;
+  padding: 8px;
+  background-color: #f76c6c;
+  color: #ffffff;
+}
+
+.active:hover {
+  background-color: #24305e;
+}
+
 /* Home page slideshow */
 .slideshowContainer {
   position: relative;
