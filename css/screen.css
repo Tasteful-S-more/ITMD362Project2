@@ -262,6 +262,12 @@ button {
   color: antiquewhite;
 }
 
+a {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
 /* Text modding */
 h1 {
   padding: 10px;
@@ -279,6 +285,7 @@ p {
   position: relative;
   text-align: center;
   justify-content: center;
+  align-items: center;
   border-radius: 15px;
 }
 
@@ -292,6 +299,7 @@ p {
   color: antiquewhite;
   background-color: #374785;
   border-radius: 15px;
+  align-items: center;
 }
 
 .bold {
