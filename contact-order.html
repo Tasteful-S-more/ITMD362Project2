@@ -8,8 +8,15 @@
     <link rel="stylesheet" media="screen" href="css/screen.css">
   </head>
   <body>
+		<nav id="main-nav">
+      <ul>
+        <li><a href="index.html">Main Page</a></li>
+				<li><a class="active" href="contact-order.html">Page 1</a></li>
+        <li><a href="learnMore.html">Page 3</a></li>
+      </ul>
+    </nav>
     <main id="content">
-	<div class="container">
+		<div class="container">
       <form method="get" action="#null">
         <h1>Order Penny Juice Concetrates Today!</h1>
         <p>Enter your information to buy your juice now!</p>
@@ -49,91 +56,125 @@
           <li id="input-flavors">
             <fieldset>
               <legend>Select Your Juice Flavors And Quantities</legend>
-                <label>
-                	<input type="checkbox" name="juice-flavor[]" value="grape" id="grape">
-                	Grape
-              	</label>
+                <div class="flavor-option">
+									<label>
+                		<input type="checkbox" name="juice-flavor[]" value="grape" id="grape">
+                		Grape
+              		</label>
               		<input type="number" name="grape-qty" min="0" value="0" aria-label="Grape Quantity">
-              	<label>
-                	<input type="checkbox" name="juice-flavor[]" value="apple" id="apple">
-                	Apple
-              	</label>
+								</div>
+								<div class="flavor-option">
+              		<label>
+                		<input type="checkbox" name="juice-flavor[]" value="apple" id="apple">
+                		Apple
+              		</label>
               		<input type="number" name="apple-qty" min="0" value="0" aria-label="Apple Quantity">
-              	<label>
-                	<input type="checkbox" name="juice-flavor[]" value="orange-raspberry" id="orange-raspberry">
-                	Orange Raspberry
-              	</label>
+								</div>
+              	<div class="flavor-option">
+									<label>
+                		<input type="checkbox" name="juice-flavor[]" value="orange-raspberry" id="orange-raspberry">
+                		Orange Raspberry
+              		</label>
              	 		<input type="number" name="orange-raspberry-qty" min="0" value="0" aria-label="Orange Raspberry Quantity">
-              	<label>
+								</div>
+								<div class="flavor-option">
+              		<label>
                 	<input type="checkbox" name="juice-flavor[]" value="orange-pineapple" id="orange-pineapple">
                 	Orange Pineapple
-              	</label>
+              		</label>
               		<input type="number" name="orange-pineapple-qty" min="0" value="0" aria-label="Orange Pineapple Quantity">
-              	<label>
-                	<input type="checkbox" name="juice-flavor[]" value="strawberry-kiwi" id="strawbery-kiwi">
-                	Strawberry Kiwi
-              	</label>
+								</div>
+								<div class="flavor-option">
+									<label>
+                		<input type="checkbox" name="juice-flavor[]" value="strawberry-kiwi" id="strawberry-kiwi">
+                		Strawberry Kiwi
+              		</label>
               		<input type="number" name="strawberry-kiwi-qty" min="0" value="0" aria-label="Strawberry Kiwi Quantity">
-              	<label>
-                	<input type="checkbox" name="juice-flavor[]" value="strawberry-banana" id="strawbery-banana">
-                	Strawberry Banana
-              	</label>
+								</div>
+								<div class="flavor-option">
+									<label>
+                		<input type="checkbox" name="juice-flavor[]" value="strawberry-banana" id="strawberry-banana">
+                		Strawberry Banana
+              		</label>
               		<input type="number" name="strawberry-banana-qty" min="0" value="0" aria-label="Strawberry Banana Quantity">
-              	<label>
-                	<input type="checkbox" name="juice-flavor[]" value="white-grape" id="white-grape">
-                	White Grape
-              	</label>
+								</div>
+								<div class="flavor-option">
+									<label>
+                		<input type="checkbox" name="juice-flavor[]" value="white-grape" id="white-grape">
+                		White Grape
+              		</label>
               		<input type="number" name="white-grape-qty" min="0" value="0" aria-label="White Grape Quantity">
-              	<label>
-                	<input type="checkbox" name="juice-flavor[]" value="green-watermelon" id="green-watermelon">
-                	Green Watermelon
-              	</label>
+								</div>
+								<div class="flavor-option">
+									<label>
+                		<input type="checkbox" name="juice-flavor[]" value="green-watermelon" id="green-watermelon">
+                		Green Watermelon
+              		</label>
               		<input type="number" name="green-watermelon-qty" min="0" value="0" aria-label="Green Watermelon Quantity">
-              	<label>
-               	 <input type="checkbox" name="juice-flavor[]" value="citrus-punch" id="citrus-punch">
-                	Citrus Punch
-             	 </label>
+								</div>
+								<div class="flavor-option">
+									<label>
+               	 		<input type="checkbox" name="juice-flavor[]" value="citrus-punch" id="citrus-punch">
+                		Citrus Punch
+             	 			</label>
               		<input type="number" name="citrus-punch-qty" min="0" value="0" aria-label="Citrus Punch Quantity">
-              	<label>
-              		<input type="checkbox" name="juice-flavor[]" value="berry" id="berry">
-               		 Berry
-             	 </label>
-              		<input type="number" name="cherry-qty" min="0" value="0" aria-label="Berry Quantity">
-              	<label>
-                	<input type="checkbox" name="juice-flavor[]" value="Cran-Apple" id="Cran-Apple">
-                	Cran-Apple
-              	</label>
+								</div>
+								<div class="flavor-option">
+              		<label>
+              			<input type="checkbox" name="juice-flavor[]" value="berry" id="berry">
+               		 	Berry
+									</label>
+              		<input type="number" name="berry-qty" min="0" value="0" aria-label="Berry Quantity">
+								</div>
+								<div class="flavor-option">
+              		<label>
+                		<input type="checkbox" name="juice-flavor[]" value="Cran-Apple" id="Cran-Apple">
+                		Cran-Apple
+              		</label>
               		<input type="number" name="cran-apple-qty" min="0" value="0" aria-label="Cran-Apple Quantity">
-              	<label>
-                	<input type="checkbox" name="juice-flavor[]" value="blue-raspberry" id="blue-raspberry">
-                	Blue Raspberry
-              	</label>
+								</div>
+								<div class="flavor-option">
+									<label>
+                		<input type="checkbox" name="juice-flavor[]" value="blue-raspberry" id="blue-raspberry">
+                		Blue Raspberry
+              		</label>
               		<input type="number" name="blue-raspberry-qty" min="0" value="0" aria-label="Blue Raspberry Quantity">
-              	<label>
-              		<input type="checkbox" name="juice-flavor[]" value="cherry" id="cherry">
-                	Cherry
-              	</label>
+								</div>
+								<div class="flavor-option">
+									<label>
+              			<input type="checkbox" name="juice-flavor[]" value="cherry" id="cherry">
+                		Cherry
+              		</label>
               		<input type="number" name="cherry-qty" min="0" value="0" aria-label="Cherry Quantity">
-              	<label>
-              		<input type="checkbox" name="juice-flavor[]" value="fruit-punch" id="fruit-punch">
-                	Fruit Punch
-             		</label>
+								</div>
+								<div class="flavor-option">
+              		<label>
+              			<input type="checkbox" name="juice-flavor[]" value="fruit-punch" id="fruit-punch">
+                		Fruit Punch
+             			</label>
               		<input type="number" name="fruit-punch-qty" min="0" value="0" aria-label="Fruit Punch Quantity">
-              	<label>
-              		<input type="checkbox" name="juice-flavor[]" value="tangerine" id="tangerine">
-                	Tangerine
-              	</label>
+								</div>
+								<div class="flavor-option">
+									<label>
+              			<input type="checkbox" name="juice-flavor[]" value="tangerine" id="tangerine">
+                		Tangerine
+              		</label>
               		<input type="number" name="tangerine-qty" min="0" value="0" aria-label="Tangerine Quantity">
-              	<label>
-              		<input type="checkbox" name="juice-flavor[]" value="peach-mango" id="peach-mango">
-                	Peach Mango
-              	</label>
+								</div>
+								<div class="flavor-option">
+									<label>
+              			<input type="checkbox" name="juice-flavor[]" value="peach-mango" id="peach-mango">
+                		Peach Mango
+              			</label>
               		<input type="number" name="peach-mango-qty" min="0" value="0" aria-label="Peach Mango Quantity">
-              	<label>
-              		<input type="checkbox" name="juice-flavor[]" value="mix-pitchers" id="mix-pitchers">
-                	Mix Pitchers
-              	</label>
+								</div>
+								<div class="flavor-option">
+									<label>
+              			<input type="checkbox" name="juice-flavor[]" value="mix-pitchers" id="mix-pitchers">
+                		Mix Pitchers
+              		</label>
               		<input type="number" name="mix-pitchers-qty" min="0" value="0" aria-label="Mix Pitchers Quantity">
+								</div>
             </fieldset>
           </li>
           <li id="input-submit">
@@ -141,7 +182,7 @@
           </li>
         </ol>
       </form>
-	</div>
+		</div>
     </main>
   </body>
 </html>
