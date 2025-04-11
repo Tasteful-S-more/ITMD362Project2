@@ -317,20 +317,30 @@ p {
   border-radius: 15px;
 }
 
-.navBar {
+.navBarTesting {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  float: left;
+  display: block;
+  text-decoration: none;
+  background-color: #f76c6c;
+  color: antiquewhite;
+}
+
+.navNotActive .nav-active{
+  margin: 1px;
   overflow: hidden;
   float: left;
   display: block;
-  padding: 8px;
+  text-decoration: none;
+  padding: 2px;
   background-color: #f76c6c;
-  color: #ffffff;
+  color: antiquewhite;
 }
 
-.active:hover {
+.nav-active:hover {
   background-color: #24305e;
+  color: antiquewhite;
+  text-decoration: none;
 }
 
 /* Home page slideshow */
