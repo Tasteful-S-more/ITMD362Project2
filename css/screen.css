@@ -333,11 +333,20 @@ p {
 
 .navBarTesting {
   list-style-type: none;
-  float: left;
+  float: center;
   display: block;
   text-decoration: none;
   background-color: #f76c6c;
   color: antiquewhite;
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px;
+  overflow: auto;
+  border: 0.5em dotted antiquewhite;
+  border-radius: 14px 18px;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  position: relative;
 }
 
 .navNotActive .nav-active{
