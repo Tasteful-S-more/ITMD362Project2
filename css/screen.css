@@ -370,6 +370,21 @@ p {
   text-decoration: none;
 }
 
+.flavor-option {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.flavor-option label {
+  flex-shrink: 0;
+}
+
+.qty-input {
+  margin-left: 1em;
+  width: 60px;
+}
+
 /* Home page slideshow */
 .slideshowContainer {
   position: relative;

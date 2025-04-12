@@ -14,3 +14,20 @@ document.addEventListener('DOMContentLoaded', () => {
       slides[currentSlide].classList.add('active');
     });
   });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const checkboxes = document.querySelectorAll('input[type="checkbox"][name="juice-flavor[]"]');
+
+  checkboxes.forEach(checkbox => {
+    checkbox.addEventListener("change", () => {
+      const flavor = checkbox.value;
+      const qtyInput = document.querySelector(`input[data-flavor="${flavor}"]`);
+      if (checkbox.checked) {
+        qtyInput.hidden = false;
+      } else {
+        qtyInput.hidden = true;
+        qtyInput.value = 1; // this should (hopefully) reset it to the default
+      }
+    });
+  });
+});
