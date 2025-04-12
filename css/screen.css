@@ -252,6 +252,20 @@ footer {
   border-radius: 5px 5px 25px 25px;
 }
 
+section {
+  border: black;
+  border-radius: 20px;
+  background: #F76C6C;
+  padding: 1px;
+  margin: 15px;
+  overflow: auto;
+  height: 20%;
+  width: 40%;
+  position: relative;
+  align-items: center;
+  box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+}
+
 /* Interactive objects */
 button {
   background-color: #F76C6C;
