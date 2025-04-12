@@ -366,6 +366,12 @@ p {
   text-decoration: none;
 }
 
+.navNotActive:hover {
+  background-color: #374785;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
 /* Home page slideshow */
 .slideshowContainer {
   position: relative;
