@@ -488,38 +488,49 @@ p {
   color: antiquewhite;
   display: inline-block;
   border: 2px solid #190368;
+  transition: all 0.4s ease;
+  transform: scale(1); 
 }
 
 
 
 
 
-#Box1 {
-  border: black;
-  border-radius: 20px;
-  background: #F76C6C;
-  padding: 1px;
-  margin: 15px;
-  overflow: auto;
-  height: 20%;
-  width: 40%;
-  position: relative;
-  align-items: center;
-  box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+#linkbutton:hover {
+  background-color: #F8E9A1;
+  color: black; 
+  transform: scale(1.1);
 }
 
-#Box2 {
+
+
+
+#Box3 img,
+#Box2 img {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+  float: left;
+  position: relative;
+  transform: scale(0.25); 
+}
+
+
+
+
+#Box4 {
   border: black;
   border-radius: 20px;
-  background: #F76C6C;
+  background: #F8E9A1;
   padding: 1px;
   margin: 15px;
   overflow: auto;
   height: 20%;
-  width: 40%;
+  width: 100%;
   position: relative;
   align-items: center;
   box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+  margin-bottom: 2rem;
 }
 
 #Box3 {
@@ -530,13 +541,14 @@ p {
   margin: 15px;
   overflow: auto;
   height: 20%;
-  width: 40%;
+  width: 100%;
   position: relative;
   align-items: center;
   box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+  margin-bottom: 2rem;
 }
 
-#Box4 {
+#Box2 {
   border: black;
   border-radius: 20px;
   background: #F76C6C;
@@ -544,8 +556,24 @@ p {
   margin: 15px;
   overflow: auto;
   height: 20%;
-  width: 40%;
+  width: 100%;
   position: relative;
   align-items: center;
   box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+  margin-bottom: 2rem;
+}
+
+#Box1 {
+  border: black;
+  border-radius: 20px;
+  background: #F76C6C;
+  padding: 1px;
+  margin: 15px;
+  overflow: auto;
+  height: 20%;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+  margin-bottom: 2rem;
 }
