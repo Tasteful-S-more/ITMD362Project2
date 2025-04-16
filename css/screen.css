@@ -20,7 +20,7 @@ button {
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
- */
+ */ 
 
 button,
 input { 
@@ -471,3 +471,81 @@ p {
 }
 
 /* ===== STATE STYLES ======= */
+
+
+
+
+
+
+
+
+
+
+
+#linkbutton {
+  background-color: #F76C6C;
+  display: block;
+  padding: 1rem;
+  border-radius: 10px 25px;
+  color: antiquewhite;
+}
+
+
+
+
+
+#Box1 {
+  border: black;
+  border-radius: 20px;
+  background: #F76C6C;
+  padding: 1px;
+  margin: 15px;
+  overflow: auto;
+  height: 20%;
+  width: 40%;
+  position: relative;
+  align-items: center;
+  box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+}
+
+#Box2 {
+  border: black;
+  border-radius: 20px;
+  background: #F76C6C;
+  padding: 1px;
+  margin: 15px;
+  overflow: auto;
+  height: 20%;
+  width: 40%;
+  position: relative;
+  align-items: center;
+  box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+}
+
+#Box3 {
+  border: black;
+  border-radius: 20px;
+  background: #F76C6C;
+  padding: 1px;
+  margin: 15px;
+  overflow: auto;
+  height: 20%;
+  width: 40%;
+  position: relative;
+  align-items: center;
+  box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+}
+
+#Box4 {
+  border: black;
+  border-radius: 20px;
+  background: #F76C6C;
+  padding: 1px;
+  margin: 15px;
+  overflow: auto;
+  height: 20%;
+  width: 40%;
+  position: relative;
+  align-items: center;
+  box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+}
