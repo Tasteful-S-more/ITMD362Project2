@@ -494,6 +494,23 @@ p {
 
 
 
+#Box3 img {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+  float: left; 
+  position: relative;
+}
+
+#Box2 img {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+  float: left; 
+  position: relative;
+}
+
+
 
 
 #Box4 {
