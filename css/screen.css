@@ -488,11 +488,18 @@ p {
   color: antiquewhite;
   display: inline-block;
   border: 2px solid #190368;
+  transition: all 0.4s ease;
+  transform: scale(1); 
 }
+
+
+
+
 
 #linkbutton:hover {
   background-color: #F8E9A1;
   color: black; 
+  transform: scale(1.1);
 }
 
 
