@@ -490,6 +490,10 @@ p {
   border: 2px solid #190368;
 }
 
+#linkbutton:hover {
+  background-color: #F8E9A1;
+  color: black; 
+}
 
 
 
