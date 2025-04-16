@@ -20,7 +20,7 @@ button {
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
- */
+ */ 
 
 button,
 input { 
@@ -471,3 +471,21 @@ p {
 }
 
 /* ===== STATE STYLES ======= */
+
+
+
+
+
+
+
+
+
+
+
+#linkbutton {
+  background-color: #F76C6C;
+  display: block;
+  padding: 1rem;
+  border-radius: 10px 25px;
+  color: antiquewhite;
+}
