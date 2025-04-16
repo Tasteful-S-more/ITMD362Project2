@@ -476,7 +476,14 @@ p {
 
 
 
-
+#Box3 img,
+#Box2 img {
+  width: 5%; 
+  max-width: 200px;
+  height: auto;
+  float: left;
+  margin-right: 1rem;
+}
 
 
 
@@ -505,15 +512,7 @@ p {
 
 
 
-#Box3 img,
-#Box2 img {
-  width: 50%;
-  max-width: 300px;
-  height: auto;
-  float: left;
-  position: relative;
-  transform: scale(0.25); 
-}
+
 
 
 
@@ -531,6 +530,7 @@ p {
   align-items: center;
   box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 #Box3 {
