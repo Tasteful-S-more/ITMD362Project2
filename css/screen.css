@@ -476,7 +476,14 @@ p {
 
 
 
-
+#Box3 img,
+#Box2 img {
+  width: 25%; 
+  max-width: 200px;
+  height: auto;
+  float: left;
+  margin-right: 1rem;
+}
 
 
 
