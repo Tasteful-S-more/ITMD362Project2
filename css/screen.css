@@ -508,6 +508,7 @@ p {
   position: relative;
   align-items: center;
   box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+  margin-bottom: 2rem;
 }
 
 #Box3 {
@@ -522,6 +523,7 @@ p {
   position: relative;
   align-items: center;
   box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+  margin-bottom: 2rem;
 }
 
 #Box2 {
@@ -536,6 +538,7 @@ p {
   position: relative;
   align-items: center;
   box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+  margin-bottom: 2rem;
 }
 
 #Box1 {
@@ -550,4 +553,5 @@ p {
   position: relative;
   align-items: center;
   box-shadow: 0px 0px 0px 3px #374785, 0px 0px 0px 8px #24305E;
+  margin-bottom: 2rem;
 }
