@@ -550,6 +550,7 @@ p {
   max-width: 200px;
   height: auto;
   margin-right: 1rem;
+  transform: scale(0.50);
 }
 
 
