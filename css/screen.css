@@ -505,20 +505,14 @@ p {
 
 
 
-#Box3 img {
-  width: 50%;
-  max-width: 300px;
-  height: auto;
-  float: left; 
-  position: relative;
-}
-
+#Box3 img,
 #Box2 img {
   width: 50%;
   max-width: 300px;
   height: auto;
-  float: left; 
+  float: left;
   position: relative;
+  transform: scale(0.25); 
 }
 
 
