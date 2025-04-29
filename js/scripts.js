@@ -31,3 +31,27 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const checkboxes = document.querySelectorAll('input[type="checkbox"][name="juice-flavor[]"]');
+
+  checkboxes.forEach(checkbox => {
+    checkbox.addEventListener("change", () => {
+      const flavor = checkbox.value;
+      const qtyInput = document.querySelector(`input[data-flavor="${flavor}"]`);
+      if (checkbox.checked) {
+        qtyInput.hidden = false;
+      } else {
+        qtyInput.hidden = true;
+        qtyInput.value = 1;
+      }
+    });
+  });
+
+  const form = document.querySelector('form');
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault(); // This technically prevents the form from actually submitting
+    alert("Your yummy and tasty juice order is on its way to you!");
+  });
+});
