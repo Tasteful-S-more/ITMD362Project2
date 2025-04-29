@@ -30,6 +30,34 @@
 
 
 
+
+
+#navi header h2 {
+  margin-top: 0;
+  padding: 1rem;
+  font-size: 2rem; 
+  color: #A8D0E6;
+  background-color: #374785;
+  font-family: "Holtwood One SC", serif;
+  text-align: center;
+  border-radius: 0.5rem;
+  max-width: 50rem; 
+  margin: 0 auto;
+  box-shadow: 0 0.2rem 0.5rem #374785;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 input {
   font-size: 100%; 
   line-height: 1.15; 
