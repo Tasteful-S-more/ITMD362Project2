@@ -531,7 +531,7 @@ p {
   width: auto; 
   height: auto; 
 }
-
+/* 
 #Box2 img,
 #Box3 img {
   width: 5%;
@@ -539,7 +539,7 @@ p {
   height: auto;
   margin-right: 1rem;
   transform: scale(0.50);
-}
+} */
 
 #Box1 {
   border: black;
