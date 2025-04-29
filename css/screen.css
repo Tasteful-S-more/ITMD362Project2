@@ -9,29 +9,6 @@
   margin: 0 auto; 
 }
 
-
-
-
-
-#navi nav ul li:hover a {
-  color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #navi header h2 {
   margin-top: 0;
   padding: 1rem;
@@ -46,23 +23,9 @@
   box-shadow: 0 0.2rem 0.5rem #374785;
 }
 
-
-
-
-
-
-
-
-
-
-
 #navi nav {
   margin-top: 2rem; 
 }
-
-
-
-
 
 #navi nav ul {
   list-style-type: none;
@@ -74,14 +37,6 @@
   margin: 0 auto; 
 }
 
-
-
-
-
-
-
-
-
 #navi nav ul li {
   flex: 1;
   background-color: #24305E;
@@ -91,11 +46,6 @@
   box-shadow: 0 0.2rem 0.5rem #A8D0E6;
   margin: 0 1rem;
 }
-
-
-
-
-
 
 #navi nav ul li:hover {
   background-color: #F76C6C;
@@ -110,13 +60,9 @@
   transition: color 1s ease;
 }
 
-
-
-
-
-
-
-
+#navi nav ul li:hover a {
+  color: white;
+}
 
 
 
