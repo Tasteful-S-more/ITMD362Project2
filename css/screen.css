@@ -411,6 +411,12 @@ p {
   padding: 0.25rem;
 }
 
+#input-age-verification label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
 /* Home page slideshow */
 .slideshowContainer {
   position: relative;
