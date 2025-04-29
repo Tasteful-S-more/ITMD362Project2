@@ -1,3 +1,26 @@
+#navi header {
+  background-color: #F8E9A1;
+  padding: 2rem; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1); 
+  width: 80%; 
+  max-width: 75rem; 
+  text-align: center;
+  margin: 0 auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 input {
   font-size: 100%; 
   line-height: 1.15; 
