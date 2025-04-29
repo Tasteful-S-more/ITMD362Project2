@@ -1,3 +1,73 @@
+#navi header {
+  background-color: #F8E9A1;
+  padding: 2rem; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1); 
+  width: 80%; 
+  max-width: 75rem; 
+  text-align: center;
+  margin: 0 auto; 
+}
+
+#navi header h2 {
+  margin-top: 0;
+  padding: 1rem;
+  font-size: 2rem; 
+  color: #A8D0E6;
+  background-color: #374785;
+  font-family: "Holtwood One SC", serif;
+  text-align: center;
+  border-radius: 0.5rem;
+  max-width: 50rem; 
+  margin: 0 auto;
+  box-shadow: 0 0.2rem 0.5rem #374785;
+}
+
+#navi nav {
+  margin-top: 2rem; 
+}
+
+#navi nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 90%; 
+  max-width: 67.5rem; 
+  margin: 0 auto; 
+}
+
+#navi nav ul li {
+  flex: 1;
+  background-color: #24305E;
+  padding: 1.5rem 0;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0.2rem 0.5rem #A8D0E6;
+  margin: 0 1rem;
+}
+
+#navi nav ul li:hover {
+  background-color: #F76C6C;
+  transform: scale(1.1);
+}
+
+#navi nav a {
+  font-family: "Holtwood One SC", serif;
+  text-decoration: none;
+  color: #A8D0E6;
+  font-size: 1.125rem; 
+  transition: color 1s ease;
+}
+
+#navi nav ul li:hover a {
+  color: white;
+}
+
+
+
+
+
 input {
   font-size: 100%; 
   line-height: 1.15; 
@@ -531,7 +601,7 @@ p {
   width: auto; 
   height: auto; 
 }
-
+/* 
 #Box2 img,
 #Box3 img {
   width: 5%;
@@ -539,7 +609,7 @@ p {
   height: auto;
   margin-right: 1rem;
   transform: scale(0.50);
-}
+} */
 
 #Box1 {
   border: black;
