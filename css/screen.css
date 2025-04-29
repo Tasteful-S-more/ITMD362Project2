@@ -402,12 +402,13 @@ p {
 }
 
 .flavor-option label {
-  flex-shrink: 0;
+  flex-grow: 1;
 }
 
 .qty-input {
-  margin-left: 1px;
-  width: 6px;
+  width: 60px;
+  margin-left: 1rem;
+  padding: 0.25rem;
 }
 
 /* Home page slideshow */
