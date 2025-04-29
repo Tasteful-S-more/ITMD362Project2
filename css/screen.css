@@ -82,6 +82,39 @@
 
 
 
+#navi nav ul li {
+  flex: 1;
+  background-color: #24305E;
+  padding: 1.5rem 0;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0.2rem 0.5rem #A8D0E6;
+  margin: 0 1rem;
+}
+
+
+
+
+
+
+#navi nav ul li:hover {
+  background-color: #F76C6C;
+  transform: scale(1.1);
+}
+
+#navi nav a {
+  font-family: "Holtwood One SC", serif;
+  text-decoration: none;
+  color: #A8D0E6;
+  font-size: 1.125rem; 
+  transition: color 1s ease;
+}
+
+
+
+
+
+
 
 
 
