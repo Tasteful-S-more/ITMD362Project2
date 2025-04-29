@@ -395,9 +395,10 @@ p {
 }
 
 .flavor-option {
-  margin-bottom: 1px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0;
 }
 
 .flavor-option label {
