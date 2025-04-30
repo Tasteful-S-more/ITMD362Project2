@@ -302,7 +302,8 @@ body {
 header {
   background-color: #F8E9A1;
   text-align: center;
-  padding: 1em;
+  padding: 0px 1em 1em;
+  width: auto;
   border-radius: 25px 25px 5px 5px; 
 }
 
@@ -358,10 +359,22 @@ p {
 
 /* Classes */ 
 .container {
-  position: relative;
+  margin: auto;
+  width: auto;
   text-align: center;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+
+.rainContainer {
+  margin: auto;
+  width: auto;
+  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #374785;
   border-radius: 15px;
 }
 
@@ -394,6 +407,14 @@ p {
   border-radius: 15px;
 }
 
+.rainbowText {
+  background: linear-gradient(0.25turn, #fe4848, #f1b61f, #f0e437, #B8E38C, #2e6fca, #d70dc3);
+  background-clip: text;
+  display: block;
+  color: transparent;
+  width: fit-content;
+}
+
 .flavor-option {
   display: flex;
   align-items: center;
@@ -421,13 +442,12 @@ p {
 .slideshowContainer {
   position: relative;
   height: 500px;
-  margin: 2em auto;
+  padding: 15px;
   overflow: hidden;
   background: #F8E9A1;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: none;
+  width: auto;
 }
 
 .slide {
@@ -443,7 +463,7 @@ p {
 }
 
 .slide.active {
-  display: block !important;
+  display: block;
 }
 
 .slide img {
