@@ -361,8 +361,18 @@ p {
   margin: auto;
   width: 98%;
   text-align: center;
+  border-radius: 15px;
+}
+
+
+.rainContainer {
+  margin: auto;
+  width: 98%;
+  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #374785;
   border-radius: 15px;
 }
 
@@ -395,6 +405,14 @@ p {
   border-radius: 15px;
 }
 
+.rainbowText {
+  background: linear-gradient(0.25turn, #fe4848, #f1b61f, #f0e437, #B8E38C, #2e6fca, #d70dc3);
+  background-clip: text;
+  display: block;
+  color: transparent;
+  width: fit-content;
+}
+
 .flavor-option {
   display: flex;
   align-items: center;
@@ -416,13 +434,6 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
-}
-
-.rainbowText {
-  background: linear-gradient(0.25turn, #fe4848, #f1b61f, #f0e437, #B8E38C, #2e6fca, #d70dc3);
-  background-clip: text;
-  color: transparent;
-  width: fit-content;
 }
 
 /* Home page slideshow */
