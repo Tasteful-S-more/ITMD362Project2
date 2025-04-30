@@ -358,7 +358,8 @@ p {
 
 /* Classes */ 
 .container {
-  position: relative;
+  margin: auto;
+  width: 98%;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -415,6 +416,13 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
+}
+
+.rainbowText {
+  background: linear-gradient(0.25turn, #fe4848, #f1b61f, #f0e437, #B8E38C, #2e6fca, #d70dc3);
+  background-clip: text;
+  color: transparent;
+  width: fit-content;
 }
 
 /* Home page slideshow */
