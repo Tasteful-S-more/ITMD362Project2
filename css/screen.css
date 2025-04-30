@@ -64,16 +64,11 @@
   color: white;
 }
 
-
-
-
-
 input {
   font-size: 100%; 
   line-height: 1.15; 
-  margin: 10px; 
-  min-width: 90%;
-  width: 40%;
+  margin: 10px 0; 
+  width: 100%;
   padding: 0.75rem;
   border-radius: 0.5em;
   border: 6px groove #374785;
@@ -261,10 +256,9 @@ label {
 form {
   display: flex;
   flex-direction: column;
-  justify-items: left;
   background-color: #24305E;
   color: antiquewhite;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 2em;
   box-shadow: 0 8px 12px rgba(92, 127, 183, 0.4);
   width: 100%;
@@ -274,10 +268,10 @@ form {
 
 fieldset {
   border: 4px dashed antiquewhite;
-  padding: 3em;
-  margin: 10;
-  width: 80%;
-  color: antiquewhite;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 img {
@@ -400,67 +394,27 @@ p {
   border-radius: 15px;
 }
 
-#main-nav {
-  text-decoration: none;
-  margin: 20px;
-}
-
-.navBarTesting {
-  list-style-type: none;
-  text-decoration: underline;
-  flex-direction: row;
-  display: float;
-  background-color: #f8e9a1;
-  color: antiquewhite;
-  margin: auto;
-  width: 80%;
-  padding: 0;
-  overflow: none;
-  border-radius: 14px 18px;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
-  position: relative;
-  box-shadow: 0px 0px 0px 4px #374785, 0px 0px 0px 8px #24305E;
-}
-
-.navNotActive .nav-active{
-  margin: 0;
-  overflow: hidden;
-  display: block;
-  text-decoration: none;
-  background-color: #f8e9a1;
-  color: antiquewhite;
-}
-
-.nav-active:hover {
-  background-color: #24305e;
-  color: antiquewhite;
-  text-decoration: none;
-}
-
-.navNotActive:hover {
-  background-color: #374785;
-  color: antiquewhite;
-  text-decoration: none;
-}
-
-.nav-active {
-  background-color: antiquewhite;
-}
-
 .flavor-option {
-  margin-bottom: 1px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0;
 }
 
 .flavor-option label {
-  flex-shrink: 0;
+  flex-grow: 1;
 }
 
 .qty-input {
-  margin-left: 1px;
-  width: 6px;
+  width: 60px;
+  margin-left: 1rem;
+  padding: 0.25rem;
+}
+
+#input-age-verification label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
 }
 
 /* Home page slideshow */
