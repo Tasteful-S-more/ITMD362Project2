@@ -1,258 +1,5 @@
-#navi header {
-  background-color: #F8E9A1;
-  padding: 2rem; 
-  border-radius: 0.5rem; 
-  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1); 
-  width: 80%; 
-  max-width: 75rem; 
-  text-align: center;
-  margin: 0 auto; 
-}
-
-#navi header h2 {
-  margin-top: 0;
-  padding: 1rem;
-  font-size: 2rem; 
-  color: #A8D0E6;
-  background-color: #374785;
-  font-family: "Holtwood One SC", serif;
-  text-align: center;
-  border-radius: 0.5rem;
-  max-width: 50rem; 
-  margin: 0 auto;
-  box-shadow: 0 0.2rem 0.5rem #374785;
-}
-
-#navi nav {
-  margin-top: 2rem; 
-}
-
-#navi nav ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 90%; 
-  max-width: 67.5rem; 
-  margin: 0 auto; 
-}
-
-#navi nav ul li {
-  flex: 1;
-  background-color: #24305E;
-  padding: 1.5rem 0;
-  border-radius: 0.5rem;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 0.2rem 0.5rem #A8D0E6;
-  margin: 0 1rem;
-}
-
-#navi nav ul li:hover {
-  background-color: #F76C6C;
-  transform: scale(1.1);
-}
-
-#navi nav a {
-  font-family: "Holtwood One SC", serif;
-  text-decoration: none;
-  color: #A8D0E6;
-  font-size: 1.125rem; 
-  transition: color 1s ease;
-}
-
-#navi nav ul li:hover a {
-  color: white;
-}
-
-input {
-  font-size: 100%; 
-  line-height: 1.15; 
-  margin: 10px 0; 
-  width: 100%;
-  padding: 0.75rem;
-  border-radius: 0.5em;
-  border: 6px groove #374785;
-  box-sizing: border-box;
-}
-
-button {
-  font-size: 100%; 
-  line-height: 1.15; 
-  margin: 10px; 
-  display: inline;
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */ 
-
-button,
-input { 
-  overflow: auto;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-
-button,
-select { 
-  text-transform: none;
-}
-
-/**
- * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
- *    controls in Android 4.
- * 2. Correct the inability to style clickable types in iOS and Safari.
- */
-
-button,
-html [type="button"], 
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; 
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-/**
- * Change the border, margin, and padding in all browsers (opinionated).
- */
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-
-legend {
-  box-sizing: border-box; 
-  color: inherit; 
-  display: table; 
-  min-width: 90%;
-  max-width: 100%; 
-  padding: 0; 
-  white-space: normal; 
-}
-
-/**
- * 1. Add the correct display in IE 9-.
- * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-
-progress {
-  display: inline-block; 
-  vertical-align: baseline; 
-}
-
-/**
- * Remove the default vertical scrollbar in IE.
- */
-
-textarea {
-  overflow: auto;
-}
-
-/**
- * 1. Add the correct box sizing in IE 10-.
- * 2. Remove the padding in IE 10-.
- */
-
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box; 
-  padding: 0; 
-}
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-
-[type="search"] {
-  -webkit-appearance: textfield; 
-  outline-offset: -2px; 
-}
-
-/**
- * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
- */
-
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button; 
-  font: inherit; 
-}
-
-/* End Form portion of Normalize CSS */
-
-/* Responsive Media */
-img, audio, video {
-  max-width: 100%;
-  min-width: 90%;
-}
-
-/* ===== BASE STYLES ===== */
-
-/*
-  Major Sixth Modular Scale:
-  http://www.modularscale.com/?22&px&1.667&web&text
-*/
-
-html {
-  font-size: 1.375em; 
-  line-height: 1.182em; 
-  padding: 1.182em; 
-  text-rendering: optimizeLegibility;
-}
-
-label {
-  display: block;
-}
-
 /* ===== LAYOUT STYLES ====== */
+
 form {
   display: flex;
   flex-direction: column;
@@ -289,6 +36,66 @@ Light Blue: #A8D0E6
 Med. Blue: #374785
 Deep Blue: #24305E*/
 
+/* Nav */
+
+#navi nav {
+  margin-top: 2rem; 
+}
+
+#navi nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 90%; 
+  max-width: 67.5rem; 
+  margin: 0 auto; 
+}
+
+#navi nav ul li {
+  flex: 1;
+  background-color: #24305E;
+  padding: 1.5rem 0;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0.2rem 0.5rem #A8D0E6;
+  margin: 0 1rem;
+}
+
+#navi nav ul li:hover {
+  background-color: #F76C6C;
+  transform: scale(1.1);
+}
+
+#navi nav a {
+  text-decoration: none;
+  color: #A8D0E6;
+  font-size: 1.125rem; 
+  transition: color 1s ease;
+}
+
+#navi nav ul li:hover a {
+  color: white;
+}
+
+input {
+  font-size: 100%; 
+  line-height: 1.15; 
+  margin: 10px 0; 
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5em;
+  border: 6px groove #374785;
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 100%; 
+  line-height: 1.15; 
+  margin: 10px; 
+  display: inline;
+}
+
 
 /* Default sections */
 body {
@@ -301,10 +108,25 @@ body {
 
 header {
   background-color: #F8E9A1;
-  text-align: center;
   padding: 0px 1em 1em;
-  width: auto;
   border-radius: 25px 25px 5px 5px; 
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1); 
+  width: auto;
+  text-align: center;
+  margin: 0 auto; 
+}
+
+h2 {
+  margin-top: 0;
+  padding: 1rem;
+  font-size: 2rem; 
+  color: #A8D0E6;
+  background-color: #374785;
+  text-align: center;
+  border-radius: 0.5rem;
+  max-width: 50rem; 
+  margin: 0 auto;
+  box-shadow: 0 0.2rem 0.5rem #374785;
 }
 
 footer {
