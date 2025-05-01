@@ -192,6 +192,7 @@ p {
   text-align: center;
   display: block;
   border-radius: 15px;
+  background-color: #374785;
   padding: 15px;
 }
 
@@ -207,7 +208,6 @@ p {
 }
 
 .imageText {
-  margin: 0;
   position: absolute;
   display: grid;
   top: 50%;
@@ -217,6 +217,7 @@ p {
   background-color: #374785;
   border-radius: 15px;
   align-items: center;
+  text-align: center;
 }
 
 .backgroundImage {
