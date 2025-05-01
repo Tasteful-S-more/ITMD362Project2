@@ -22,7 +22,7 @@ fieldset {
 }
 
 img {
-  display: block;
+  display: inline-block;
   max-width: 100%;
   height: auto;
   border-radius: 1em;
@@ -102,8 +102,6 @@ body {
   font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
   background-color: #A8D0E6;
   line-height: 1.6;
-  justify-content: center;
-  align-items: center;
 }
 
 header {
@@ -169,12 +167,10 @@ h2 {
   padding: 1rem;
   font-size: 2rem; 
   color: #A8D0E6;
-  background-color: #374785;
   text-align: center;
-  border-radius: 0.5rem;
-  max-width: 50rem; 
+  border-radius: 0.5rem; 
   margin: 0 auto;
-  box-shadow: 0 0.2rem 0.5rem #374785;
+
 }
 
 h3 {
@@ -182,18 +178,19 @@ h3 {
 }
 
 p {
+  color: antiquewhite;
   padding: 1em;
 }
 
 /* Classes */ 
 .container {
-  margin: auto;
+  margin: 2em;
   width: auto;
   text-align: center;
   display: block;
   border-radius: 15px;
-  background-color: #374785;
-  padding: 15px;
+  background: #374785;
+  box-shadow: 0 0.2rem 0.5rem #374785;
 }
 
 
