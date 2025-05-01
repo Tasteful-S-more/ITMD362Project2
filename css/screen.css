@@ -325,7 +325,7 @@ section {
   background: #f8e9a1;
   padding: 1px;
   margin: 15px;
-  overflow: none;
+  overflow: auto;
   position: relative;
   align-items: center;
 }
