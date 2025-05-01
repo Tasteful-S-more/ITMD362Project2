@@ -109,24 +109,11 @@ body {
 header {
   background-color: #F8E9A1;
   padding: 0px 1em 1em;
-  border-radius: 25px 25px 5px 5px; 
+  border-radius: 5px 5px 25px 25px; 
   box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1); 
   width: auto;
   text-align: center;
   margin: 0 auto; 
-}
-
-h2 {
-  margin-top: 0;
-  padding: 1rem;
-  font-size: 2rem; 
-  color: #A8D0E6;
-  background-color: #374785;
-  text-align: center;
-  border-radius: 0.5rem;
-  max-width: 50rem; 
-  margin: 0 auto;
-  box-shadow: 0 0.2rem 0.5rem #374785;
 }
 
 footer {
@@ -137,7 +124,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 3em;
-  border-radius: 5px 5px 25px 25px;
+  border-radius: 25px 25px 5px 5px;
 }
 
 section {
@@ -172,7 +159,26 @@ h1 {
   padding: 10px;
   text-align: center;
   padding: 0.5em;
+  font-weight: bold;
   letter-spacing: 1px;
+  font-size: 4rem;
+}
+
+h2 {
+  margin-top: 0;
+  padding: 1rem;
+  font-size: 2rem; 
+  color: #A8D0E6;
+  background-color: #374785;
+  text-align: center;
+  border-radius: 0.5rem;
+  max-width: 50rem; 
+  margin: 0 auto;
+  box-shadow: 0 0.2rem 0.5rem #374785;
+}
+
+h3 {
+  font-size: 3rem;
 }
 
 p {
@@ -213,10 +219,6 @@ p {
   align-items: center;
 }
 
-.bold {
-  font-weight: bold;
-}
-
 .backgroundImage {
   background-image: url('../images/smilingChildren.jpg');
   background-size: cover;
@@ -232,6 +234,7 @@ p {
 .rainbowText {
   background: linear-gradient(0.25turn, #fe4848, #f1b61f, #f0e437, #B8E38C, #2e6fca, #d70dc3);
   background-clip: text;
+  font-weight: bold;
   display: block;
   color: transparent;
   width: fit-content;
