@@ -1,4 +1,4 @@
-/* ===== LAYOUT STYLES ====== */
+/* Form elements */
 
 form {
   display: flex;
@@ -11,6 +11,61 @@ form {
   width: 100%;
   max-width: 500px;
   margin: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  width: 40%;
+  margin-bottom: 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="number"],
+.form-group input[type="checkbox"] {
+  flex: 1;
+}
+
+.flavor-option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2em;
+  padding: 0.5em;
+}
+
+.flavor-option label {
+  flex-grow: 1;
+}
+
+.qty-input {
+  width: 60px;
+  margin-left: 1rem;
+  padding: 0.25rem;
+}
+
+#input-submit {
+  text-align: center;
+}
+
+#input-submit input[type="submit"] {
+  background-color: #F76C6C;
+  padding: 1rem 2rem;
+  border: none;
+  color: antiquewhite;
+  font-weight: bold;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
 fieldset {
@@ -239,28 +294,7 @@ p {
   width: fit-content;
 }
 
-.flavor-option {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0.5rem 0;
-}
 
-.flavor-option label {
-  flex-grow: 1;
-}
-
-.qty-input {
-  width: 60px;
-  margin-left: 1rem;
-  padding: 0.25rem;
-}
-
-#input-age-verification label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5em;
-}
 
 /* Home page slideshow */
 .slideshowContainer {
@@ -331,7 +365,6 @@ p {
   color: antiquewhite;
 }
 
-/* ===== LAYOUT STYLES ====== */
 /*add header resizing and div width limits*/
 @media (min-width: 600px) {
   form {
@@ -353,7 +386,6 @@ p {
   }
 }
 
-/* ===== STATE STYLES ======= */
 #linkbutton {
   background-color: #F76C6C;
   margin: 1em;

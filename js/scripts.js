@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   form.addEventListener('submit', (event) => {
     event.preventDefault();
-    alert("Your yummy and tasty juice order is on its way to you!!🧃");
+    alert("Order placed! Thank you for your purchase!🧃");
 
     form.reset(); // this should hopefully reset all the inputs to default values!
 
