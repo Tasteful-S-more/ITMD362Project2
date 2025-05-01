@@ -107,8 +107,8 @@ body {
 }
 
 header {
-  background-color: #F8E9A1;
-  padding: 0px 1em 1em;
+  background-color: #F8E9A1; 
+  padding: 0px 1em 2em;
   border-radius: 5px 5px 25px 25px; 
   box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1); 
   width: auto;
@@ -190,6 +190,7 @@ p {
   margin: auto;
   width: auto;
   text-align: center;
+  display: block;
   border-radius: 15px;
   padding: 15px;
 }
@@ -201,7 +202,6 @@ p {
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: #374785;
   border-radius: 15px;
 }
@@ -225,6 +225,7 @@ p {
   background-position: center;
   height: 400px;
   position: relative;
+  margin: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -266,7 +267,8 @@ p {
 /* Home page slideshow */
 .slideshowContainer {
   position: relative;
-  height: 500px;
+  height: 20em;
+  margin: 2em;
   padding: 15px;
   overflow: hidden;
   background: #F8E9A1;
@@ -332,6 +334,7 @@ p {
 }
 
 /* ===== LAYOUT STYLES ====== */
+/*add header resizing and div width limits*/
 @media (min-width: 600px) {
   form {
     padding: 2rem;
@@ -355,7 +358,9 @@ p {
 /* ===== STATE STYLES ======= */
 #linkbutton {
   background-color: #F76C6C;
+  margin: 1em;
   padding: 1rem;
+  font-weight: bold;
   border-radius: 10px 25px;
   color: antiquewhite;
   display: inline-block;
