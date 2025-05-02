@@ -176,8 +176,6 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 3em;
-  border-radius: 25px 25px 5px 5px;
-}
 
 /* Interactive objects */
 button {
