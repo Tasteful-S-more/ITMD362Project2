@@ -248,6 +248,10 @@ h2 {
 
 h3 {
   font-size: 3rem;
+  color: antiquewhite;
+  font-weight: bold;
+  display: block;
+  width: fit-content;
 }
 
 p {
@@ -263,11 +267,12 @@ p {
   display: block;
   border-radius: 15px;
   background: #374785;
+  justify-content: center;
   box-shadow: 0 0.2rem 0.5rem #374785;
 }
 
 
-.rainContainer {
+.flexContainer {
   margin: auto;
   width: auto;
   text-align: center;
@@ -303,14 +308,7 @@ p {
   border-radius: 15px;
 }
 
-.rainbowText {
-  background: linear-gradient(0.25turn, #fe4848, #f1b61f, #f0e437, #B8E38C, #2e6fca, #d70dc3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  display: block;
-  width: fit-content;
-}
+
 
 
 
