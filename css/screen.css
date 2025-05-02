@@ -401,6 +401,7 @@ p {
 
   p {
     font-size: 1rem;
+    margin: 0;
   }
 
   nav ul {
@@ -416,8 +417,9 @@ p {
 
   
   form {
-    width: 98%;
-    margin: 0;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
   }
 
   input {
@@ -428,12 +430,19 @@ p {
     box-sizing: border-box;
   }
 
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 0.5em;
+  }
+
   label {
-    max-width: 97%;
+    max-width: 95%;
+    margin: 0;
   }
 
   #input-submit {
     padding: 0;
+    margin: 0;
   }
 
   #navi nav ul li {
@@ -444,15 +453,30 @@ p {
 
   .form-group,
   .flavor-option {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 1rem;
-    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    padding: 0.5em 0;
   }
 
   .form-group label {
     width: 100%;
     margin-bottom: 0.5rem;
+  }
+
+  .flavor-option label {
+    flex: 1 1 40%;
+    margin: 0;
+  }
+
+  .flavor-option input[type="checkbox"],
+  .flavor-option input[type="number"] {
+    flex: 0 1 auto;
+    max-width: 25%;
+    margin: 0;
   }
 
   .qty-input {
@@ -489,7 +513,7 @@ p {
 
   .container {
     width: 97%;
-    max-width: 97%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
